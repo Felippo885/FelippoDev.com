@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu:wght@400;500;700&display=swap');
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom, #9cc4e4, #1b325f);
+}
+/* Corpo */
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+
+    padding: 10px;
+}
+.menu-itens {
+    display: flex;
+    gap: 2rem;
+    margin-right: 15px;
+}
+.menu-itens li,
+.menu-itens li a  {
+    list-style: none;
+    text-decoration: none;
+    color: #121;
+    font-size: 14px;
+
+    transition: 0.5s ease-in-out;
+}
+.menu-itens li a:hover {
+    color: #e90f0f
+}
+.logo {
+   margin: 10px;
+   font-weight: lighter ;
+}
+
+/* Comnteudo */
+.img-eu {
+  height: 250px;
+  border-radius: 5rem;
+  filter: blur(50%);
+  box-shadow: 0 2px 20px #565175(31, 30, 30);
+  
+  position: relative;
+  bottom: 15px;
+}
+.img {
+    background-image: linear-gradient(to top, #538a95, #565175);
+    padding: 15px;
+    border-radius: 50%;
+    width: auto;
+    height: 300px;
+
+    box-shadow: 0 2px 15px #254380;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    gap: 80px;
+
+    margin: 0 auto;
+}
+.info-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.para-info {
+    font-size: 2rem;
+    width: 300px;
+    font-weight: 700;
+}
+.span-name {
+    color: red;
+}
+.para-info2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.botao {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: 140px;
+    height: 40px;
+
+    color: #fff;
+    background: #7894ac;
+    border: none;
+    border-radius: 1rem;
+
+    box-shadow: 0 3px 10px #254380;
+
+    transition: ease-in-out 0.3s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.ri-arrow-down-line {
+    background: #fff;
+    padding: 2px;
+    border-radius: 10px;
+    color: #003f69;
+
+    position: relative;
+    top: 0;
+    font-weight: bold;
+}
+.botao:hover {
+    cursor: pointer;
+    background: #260d33;
+    color: #fff;
+}
+.sociais {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.in-line {
+    font-size: 1.4rem;
+    color: #222;
+    background: #fff;
+    padding: 8px;
+    border-radius: 20px;
+
+    transition: ease-in-out 0.3s
+}
+/* Icons Animations */
+
+.ri-linkedin-box-fill:hover {
+    background: rgb(189, 122, 252);
+    color: #fff;
+}
+.ri-twitter-fill:hover {
+    background: rgb(157, 157, 253);
+    color: #fff;
+}
+.ri-telegram-fill:hover {
+    background: rgb(177, 177, 255);
+    color: #fff;
+}
+.ri-whatsapp-line:hover {
+    background: rgb(124, 184, 34);
+    color: #fff;
+}
+.ri-github-fill:hover {
+    color: #fff;
+    background: black;
+}
+.ri-instagram-line:hover {
+    background: rgb(107, 6, 107);
+    color: #fff;
+}
