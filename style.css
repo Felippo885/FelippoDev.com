@@ -197,6 +197,9 @@ body {
         height: 200px;
         top: 5px;
     }
+    .img {
+        width: 350px;
+    }
     .logo {
         position: relative;
         left: 150px;
