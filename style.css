@@ -196,12 +196,13 @@ body {
     .img-eu {
         height: 200px;
         top: 5px;
+        left: 13px;
     }
     .img {
-        width: 350px;
+        width: 250px;
     }
     .logo {
         position: relative;
-        left: 150px;
+        left: 130px;
     }
 }
