@@ -25,6 +25,8 @@ body {
     background: #fff;
 
     padding: 10px;
+
+    width: 100%;
 }
 .menu-itens {
     display: flex;
@@ -174,4 +176,29 @@ body {
 .ri-instagram-line:hover {
     background: rgb(107, 6, 107);
     color: #fff;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .menu {
+        display: none;
+    }
+    .cabecalho {
+        width: 500px;
+    }
+    .container {
+        flex-direction: column-reverse;
+        padding: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-eu {
+        height: 200px;
+        top: 5px;
+    }
+    .logo {
+        position: relative;
+        left: 150px;
+    }
 }
