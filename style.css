@@ -52,20 +52,19 @@ body {
 
 /* Comnteudo */
 .img-eu {
-  height: 250px;
+  height: 200px;
   border-radius: 5rem;
   filter: blur(50%);
   box-shadow: 0 2px 20px #565175(31, 30, 30);
   
   position: relative;
-  bottom: 15px;
+  bottom: 10px;
 }
 .img {
     background-image: linear-gradient(to top, #538a95, #565175);
     padding: 15px;
     border-radius: 50%;
     width: auto;
-    height: 300px;
 
     box-shadow: 0 2px 15px #254380;
 }
@@ -194,7 +193,6 @@ body {
         justify-content: center;
     }
     .img-eu {
-        height: 200px;
         top: 5px;
         left: 13px;
     }
