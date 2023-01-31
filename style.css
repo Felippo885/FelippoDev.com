@@ -27,7 +27,7 @@ body {
 
     padding: 10px;
 
-    width: 100vw;
+    width: 100%;
 }
 .menu-itens {
     display: flex;
@@ -48,7 +48,8 @@ body {
 }
 .logo {
    margin: 10px;
-   font-weight: lighter ;
+   font-weight: initial;
+   text-align: center;
 }
 
 /* Comnteudo */
@@ -188,7 +189,9 @@ body {
         display: none;
     }
     .cabecalho {
-        width: 500px;
+        width: 800px;
+        display: none;
+        transition: ease-in-out;
     }
     .container {
         flex-direction: column-reverse;
@@ -202,9 +205,5 @@ body {
     }
     .img {
         width: 250px;
-    }
-    .logo {
-        position: relative;
-        left: 110px;
     }
 }
