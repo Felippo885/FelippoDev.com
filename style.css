@@ -12,6 +12,7 @@
 
 body {
     background-image: linear-gradient(to bottom, #9cc4e4, #1b325f);
+    transition: ease-in-out 0.3s;
 }
 /* Corpo */
 
@@ -26,7 +27,7 @@ body {
 
     padding: 10px;
 
-    width: 100%;
+    width: 100vw;
 }
 .menu-itens {
     display: flex;
@@ -180,6 +181,9 @@ body {
 /* Mobile */
 
 @media (max-width: 600px) {
+    body {
+        background-image: linear-gradient(to bottom, #2f3a42, #2e529b);
+    }
     .menu {
         display: none;
     }
